@@ -18,6 +18,7 @@ typedef struct listint_s
 } listint_t;
 
 void bubble_sort(int *array, size_t size);
+int get_max(int *array, int size);
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 listint_t *swap_node(listint_t *node, listint_t **list);
